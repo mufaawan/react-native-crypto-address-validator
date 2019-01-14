@@ -1,5 +1,5 @@
 {
-    "name": "rn-crypto-address-validator",
+    "name": "react-native-crypto-address-validator",
     "description": "Description to be updated soon",
     "keywords": [
         "auroracoin",
@@ -61,20 +61,20 @@
         "browser",
         "reactnative"
     ],
-    "version": "1.0.6",
+    "version": "1.0.0",
     "author": "Umar Farooq Awan <mufaawan@gmail.com>",
-    "homepage": "https://github.com/mufaawan/rn-crypto-address-validator",
+    "homepage": "https://github.com/mufaawan/react-native-crypto-address-validator",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/mufaawan/rn-crypto-address-validator.git"
+        "url": "git+https://github.com/mufaawan/react-native-crypto-address-validator.git"
     },
     "main": "src/crypto_address_validator.js",
     "dependencies": {
-        "base-x": "^3.0.4",
-        "iota.lib.js": "^0.4.7",
-        "jssha": "2.3.1",
-        "buffer": "^5.2.0"
+        "base-x": "3.0.4",
+        "buffer": "5.2.0",
+        "iota.lib.js": "0.4.7",
+        "jssha": "2.3.1"
     },
     "devDependencies": {
         "browserify": "^15.1.0",
@@ -85,5 +85,14 @@
         "karma-mocha": "^1.3.0",
         "mocha": "^5.0.2",
         "uglify-js": "^3.3.13"
+    },
+    "bugs": {
+        "url": "https://github.com/mufaawan/react-native-crypto-address-validator/issues"
+    },
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
     }
 }
